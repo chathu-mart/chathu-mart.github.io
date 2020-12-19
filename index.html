@@ -4,8 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+
+        .l-page{
+            font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif; 
+        }
+
+        .l-wrapper{
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .c-header{
+            background-color: #85b716;
+            padding: 10px;
+            border-bottom: 1px solid #dddddd;
+        }
+
+        .c-header-wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .c-header__brand{
+            display: inline-flex;
+            align-items: center;
+        }
+        .c-header__title{
+           margin:0 1em; 
+           font-size: 32px;
+           color: #111111;
+        }
+
+        .c-header__logo{
+            width: 80px;
+        }
+
+        .c-header__nav{
+            display: none;
+        }
+
+        @media (min-width: 768px) {
+            .c-header__nav{
+                display: flex;
+            }
+        }
+
+        .c-header__nav-link{
+            margin-left: 10px;
+            background: #383937;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 3px;
+            color: #ffa039;
+            text-align: center;
+        }
+
+        .c-nav{
+            height: 5px;
+            background-color: #ffa039;
+        }
+
+        .c-listing{
+            padding: 20px 0;
+        }
+
+        .c-listing__title{
+            font-size: 28px;
+        }
+
+        .c-gallary__img{
+            width: 100%;
+        }
+
+    </style>
 </head>
-<body>
-    <h1>Welcome to Chathu-Mart</h1>
+<body class="l-page">
+    <header class="c-header">
+        <div class="l-wrapper c-header-wrapper">
+            <div class="c-header__brand">
+                <img class="c-header__logo" src="https://chathu-mart.github.io/CM-logo2.jpg" alt="">
+                <h1 class="c-header__title">Welcome to Chathu Mart</h1>
+            </div>
+            <div class="c-header__nav">
+                <a class="c-header__nav-link a-btn" target="_blank" href="https://www.ebay.com/sch/chathu-mart/m.html?_nkw=&_armrs=1&_ipg=&_from=">Visit Our Store</a>
+                <a class="c-header__nav-link a-btn" target="_blank" href="https://www.ebay.com/sch/chathu-mart/m.html?_nkw=&_armrs=1&_ipg=&_from=#saveSeller">Add to Favorite Seller</a>
+            </div>            
+        </div>        
+    </header>
+    <nav class="c-nav"></nav>
+    <main class="l-wrapper">
+        <article class="c-listing">
+            <h2 class="c-listing__title">Pure Ceylon Green Tea - 10 Tea Bags</h4>
+                
+            <div class="c-gallary">
+                <img class="c-gallary__img" src="https://chathu-mart.github.io/IMG_20201126_220812.jpg" alt="">
+                <img class="c-gallary__img" src="https://chathu-mart.github.io/IMG_20201126_220902.jpg" alt="">
+                <img class="c-gallary__img" src="https://chathu-mart.github.io/IMG_20201126_221013.jpg" alt="">
+                <img class="c-gallary__img" src="https://chathu-mart.github.io/IMG_20201126_221136 (2).jpg" alt="">
+            </div>
+
+            <p>Green tea is touted to be one of the healthiest beverages on the planet. Made of unoxidized leaves of Camellia sinensis, green tea is one of the least processed types of tea and contains a large number of antioxidants and polyphenols which provide numerous health benefits.</p>
+
+        </article>
+        <aside>
+
+        </aside>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
+
+<header class="c-header"><div class="l-wrapper c-header-wrapper"><div class="c-header__brand"><img class="c-header__logo" src="https://chathu-mart.github.io/CM-logo2.jpg" alt=""><h1 class="c-header__title">Welcome to Chathu Mart</h1></div><div class="c-header__nav"><a class="c-header__nav-link a-btn" target="_blank" href="https://www.ebay.com/sch/chathu-mart/m.html?_nkw=&amp;_armrs=1&amp;_ipg=&amp;_from=">Visit Our Store</a><a class="c-header__nav-link a-btn" target="_blank" href="https://www.ebay.com/sch/chathu-mart/m.html?_nkw=&amp;_armrs=1&amp;_ipg=&amp;_from=#saveSeller">Add to Favorite Seller</a></div></div></header><nav class="c-nav"></nav>
+<style>img {max-width: 100%;}.l-page{font-family:"Helvetica neue",Helvetica,Verdana,Sans-serif}.l-wrapper{max-width:1200px;margin:0 auto}.c-header{background-color:#85b716;padding:10px;border-bottom:1px solid #ddd}.c-header-wrapper{display:flex;justify-content:space-between;align-items:center}.c-header__brand{display:inline-flex;align-items:center}.c-header__title{margin:0 1em;font-size:32px;color:#111}.c-header__logo{width:80px}.c-header__nav{display:none}@media (min-width:768px){.c-header__nav{display:flex}}.c-header__nav-link{margin-left:10px;background:#383937;padding:10px;text-decoration:none;border-radius:3px;color:#ffa039;text-align:center}.c-nav{height:5px;background-color:#ffa039}.c-listing{padding:20px 0}.c-listing__title{font-size:28px}.c-gallary__img{width:100%}</style>
